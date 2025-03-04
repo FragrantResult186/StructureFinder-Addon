@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Structure Finder Addon",
+    "description": "Find bedrock structures using a simple UI",
+    "uuid": "86c6677f-43c2-46b9-b94d-2d6ac9f8b4d6",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 62]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "4285dceb-33a6-4c34-9102-38661827448a",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "capabilities": ["script_eval"],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.10.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.1.0"
+    }
+  ]
+}
